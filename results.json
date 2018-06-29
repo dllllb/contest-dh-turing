@@ -1,0 +1,73 @@
+[
+    {
+        "spearman": 0.5919878901621723,
+        "valid_type": "holdout",
+        "pairwise": false,
+        "use_fuzzy_match": true,
+        "use_freq_ngrams": true,
+        "use_pca_wc": true,
+        "est_type": "rf",
+        "n_estimators": 200,
+        "max_depth": 6,
+        "min_samples_leaf": 5
+    },
+    {
+        "spearman": 0.6983080208440124,
+        "valid_type": "holdout",
+        "pairwise": false,
+        "use_fuzzy_match": true,
+        "use_freq_ngrams": true,
+        "use_pca_wc": true,
+        "est_type": "catb",
+        "objective": "normal"
+    },
+    {
+        "spearman": 0.7042384303873278,
+        "valid_type": "holdout",
+        "pairwise": false,
+        "use_fuzzy_match": true,
+        "use_freq_ngrams": true,
+        "use_pca_wc": true,
+        "est_type": "xgb",
+        "n_estimators": 500,
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "objective": "poisson"
+    },
+    {
+        "spearman": 0.7221537771189259,
+        "valid_type": "holdout",
+        "pairwise": false,
+        "use_fuzzy_match": true,
+        "use_freq_ngrams": true,
+        "use_pca_wc": true,
+        "est_type": "catb",
+        "objective": "poisson"
+    },
+    {
+        "spearman": 0.6746971321974863,
+        "valid_type": "holdout",
+        "pairwise": false,
+        "use_fuzzy_match": true,
+        "use_freq_ngrams": true,
+        "use_pca_wc": true,
+        "est_type": "lgbm",
+        "n_estimators": 500,
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "objective": "poisson"
+    },
+    {
+        "spearman": 0.7332441107438785,
+        "valid_type": "holdout",
+        "pairwise": true,
+        "use_fuzzy_match": true,
+        "use_freq_ngrams": true,
+        "use_pca_wc": true,
+        "est_type": "lgbm",
+        "n_estimators": 500,
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "objective": "normal"
+    }
+]
