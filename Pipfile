@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+jupyter = "*"
+
+[packages]
+pandas = ">=0.24"
+numpy = ">=1.16"
+scikit-learn = ">=0.20"
+xgboost = ">=0.6"
+lightgbm = ">=2.2"
+catboost = ">=0.16"
+
+[requires]
+python_version = "3.8"
